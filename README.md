@@ -1,0 +1,2 @@
+# Choropleth
+Create choropleth graphs
