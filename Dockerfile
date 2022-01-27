@@ -1,7 +1,5 @@
 FROM jupyter/datascience-notebook
 
-USER ROOT
-
 COPY environment.yml ${HOME}/environment.yml
 
 # Add dependencies
