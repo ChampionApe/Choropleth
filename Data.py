@@ -1,9 +1,10 @@
 import pandas as pd, json
 
 # MAIN FUNCTION:
-def AdjustData(f,label):
+def AdjustData(f,label,clean=False):
 	""" Fix data """
-	f = fix_labels(f,label)
+	if clean:
+		f = fix_labels(f,label)
 	return collect_data(f,label),list(unique_labels(f,label))
 
 # Auxiliary functions:
