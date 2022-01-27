@@ -1,0 +1,12 @@
+name: base
+channels:
+- conda-forge
+dependencies:
+  - jupyter_conda
+  - nodejs
+  - pip:
+    - pandas
+    - plotly
+    - json
+    - kaleido
+    
