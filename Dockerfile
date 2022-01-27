@@ -15,4 +15,4 @@ RUN conda env update -f environment.yml --quiet && \
 # Add extensions
 RUN jupyter labextension install \
     @jupyter-widgets/jupyterlab-manager \
-    jupyterlab-plotly\
+    jupyterlab-plotly
