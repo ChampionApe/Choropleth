@@ -6,6 +6,7 @@ dependencies:
   - nodejs
   - pip:
     - pandas
+    - ipywidgets
     - plotly
     - json
     - kaleido
