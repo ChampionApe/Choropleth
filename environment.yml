@@ -4,6 +4,7 @@ channels:
 dependencies:
   - jupyter_conda
   - nodejs
+  - pip
   - pip:
     - pandas
     - ipywidgets
