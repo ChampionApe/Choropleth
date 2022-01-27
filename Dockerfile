@@ -1,7 +1,5 @@
 FROM jupyter/datascience-notebook
 
-COPY .${HOME}
-
 USER ROOT
 
 COPY environment.yml ${HOME}/environment.yml
