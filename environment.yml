@@ -10,4 +10,5 @@ dependencies:
     - ipywidgets
     - plotly
     - kaleido
+    - openpyxl
     
